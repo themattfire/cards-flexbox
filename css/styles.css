@@ -1,0 +1,92 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.contenedor {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Popins', sans-serif;
+  font-weight: 700;
+  flex: 0 1 100%;
+  text-align: center;
+  font-size: 3.6rem;
+  color: #4b4b4b;
+}
+
+h3 {
+  font-family: 'Popins', sans-serif;
+  font-size: 2.1rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+img {
+  border-radius: 10px 10px 0 0;
+  max-width: 100%;
+  box-shadow: 2px 0 10px 1px rgba(0, 0, 0, 0.09);
+}
+@media screen and (min-width: 480px) {
+  .contenido-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .entrada {
+    flex: 0 1 calc(50% - 1rem);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .entrada {
+    flex: 0 1 calc(33% - 1rem);
+  }
+}
+
+.entrada {
+  margin-bottom: 2rem;
+}
+
+.contenido {
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.09);
+  background-color: white;
+  color: #4b4b4b;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 0 0 10px 10px;
+}
+
+.contenido span {
+  color: #a0a0a0;
+}
+
+.contenido p {
+  font-family: 'Popins', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.boton {
+  background-color: #acca4b;
+  font-family: 'Popins', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: whitesmoke;
+  padding: 0.8rem 3rem;
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #839e2a;
+}
